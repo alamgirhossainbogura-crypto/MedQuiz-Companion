@@ -44,7 +44,7 @@ graph TD
 ​Prompt Engineering Design:
 ​"You are an expert NCLEX board examiner. Generate ONE highly challenging, scenario-based MCQ about [Topic] with 4 options (A, B, C, D). Provide the exact correct answer and a highly detailed clinical Rationale explaining the core pathophysiology behind correct and incorrect options."
  
- 
+ ---
 ​
 ## 🔌 API Endpoints Documentation
 ​POST /api/chat
@@ -68,14 +68,19 @@ graph TD
   "reply": "It feels like a heavy elephant is sitting right on the middle of my chest..."
 }
 
+---
 
 ## 🛡️ Medical Disclaimer & Safety Compliance
 ​NB: This application is strictly powered by Artificial Intelligence for educational, training, and simulation purposes only. It does not provide real-world clinical advice, medical diagnoses, or definitive treatment protocols.
+
+---
 ## ​🛠️ Tech Stack & Architecture Details
 ​Core Backend Framework: Python 3.10+ & Flask (Modular Blueprints Setup)
 ​Frontend Layer: Responsive HTML5, CSS3, JavaScript Async-Fetch API, Bootstrap 5 UI Component Framework
 ​State & Context Management: Client-Side Async History Arrays & Dynamic Backend Wrapper
 ​Security & Infrastructure: Replit Secrets Token Management (Zero Hardcoded Keys Vulnerability)
+
+---
 ## ​🚀 Installation & Local Environment Setup
 1.Clone the Production Repository:
  git clone [https://github.com/alamgirhossainbogura-crypto/MedQuiz-Companion.git](https://github.com/alamgirhossainbogura-crypto/MedQuiz-Companion.git)
@@ -93,5 +98,5 @@ OPENAI_API_KEY=your_secured_openai_api_key_here
 4.Boot Up the Server:
 python run.py
 
-
+---
 ## The application will become locally available at http://localhost:8080.
