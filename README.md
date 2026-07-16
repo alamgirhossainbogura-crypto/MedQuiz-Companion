@@ -34,3 +34,12 @@ Generates high-yield, scenario-based multiple-choice questions aligned with NCLE
 1. Clone this repository:
    ```bash
    git clone [https://github.com/YOUR_USERNAME/MedQuiz-Companion.git](https://github.com/YOUR_USERNAME/MedQuiz-Companion.git)
+
+2. Install dependencies:
+ pip install -r requirements.txt
+
+4. Set up your Environment Variable in a .env file or Replit Secrets:
+OPENAI_API_KEY=your_openai_api_key_here
+
+5. Run the development server:
+   python main.py
